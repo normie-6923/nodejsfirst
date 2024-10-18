@@ -3,7 +3,9 @@ const http = require("http")
 const myserver = http.createServer((req,res)=>{
     if(req.url === "/"){
         res.writeHead(200,{'contentType':'text/plain'})
+        console.log("send back")
         res.end("Hello world")
+        
     }
     else if(req.url ==="/about"){
         res.writeHead(200,{'contentType':'text/plain'})
