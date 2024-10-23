@@ -1,0 +1,30 @@
+
+body{
+    background-color: bisque;
+    display: flex;
+    
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+   position: relative;
+   top: 60px;
+   
+ 
+  
+  
+    
+}
+#but{
+    height: 30px;
+    width: 30px;
+}
+nav{
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(255, 255, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
