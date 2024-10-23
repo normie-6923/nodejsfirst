@@ -1,0 +1,15 @@
+{
+  "name": "free-code-camp",
+  "version": "1.0.0",
+  "main": "eventEmitter.js",
+  "scripts": {
+    "start":"nodemon \"c:\\Users\\Dell\\OneDrive\\Desktop\\sigma web development\\node js\\free code camp\\app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
