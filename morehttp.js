@@ -1,11 +1,13 @@
 const http = require("http")
 const fs = require("fs")
 const util = require("util")
+const path = require("path")
 const asyncread = util.promisify(fs.readFile)
 
 const start = async()=>{
 
     try{
+    
    const htmlwrite = await asyncread('index.html',"utf8")
    const csswrite = await asyncread('style.css',"utf8")
 const myserver = http.createServer((req,res)=>{
